@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- render file -->
+    <link rel="stylesheet" href="render.css">
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,700;1,300;1,400;1,800&display=swap" rel="stylesheet">
+
+    <title>Log in to MASAR</title>
+    <style>
+        a {
+            color: #01AEF4;
+        }
+    </style>
+</head>
+
+<body class="login">
+    <div class="loginPage">
+        <header id="myHeader">
+            <div class="container">
+                <div class="logo"><img src="/1500x1500.png" width="100px" alt="Masar">
+
+                    <p class="flogo">MASAR</p>
+                </div>
+                <div class="nav">
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div class="box">
+
+                <div class="inputData">
+                    <span id="log-welcome">
+                        <h1 id="log-title">اهلا بعودتك ! </h1>
+                        <h4 class="log-color">منظومة سير عمل تسجيل الطلاب</h4>
+                    </span>
+                    <form method="post">
+                        <p>البريد الالكتروني او رقم الهاتف
+                            <br>
+                            <input type="text" id="log-email" placeholder="البريد الالكتروني او رقم الهاتف " required>
+                        </p>
+                        <p>كلمة المرور
+                            <br>
+                            <input id="log-pass" type="password" placeholder="كلمة المرور">
+                        </p>
+                        <br>
+                        <a href="#">نسيت كلمة المرور؟</a>
+                        <br>
+                        <button value="تسجيل الدخول" type="submit" id="log-button">تسجيل الدخول </button>
+
+                        <p class="log-color">لم تقم بالتسجيل؟
+                            <span class="aln"><a href="/Register.html">سجل الان </a></span>
+                        </p>
+                    </form>
+                </div>
+
+                <div class="QrCode">
+                    <img src="/qrcode.png" width="247px" alt="">
+                    <h2 class="qrText1">سجل الدخول مع ال <br> QR Code</h2>
+                    <br>
+                    <h4 class="qrText2">اقرأ هذا مع تطبيق مسار لتسجيل <br> الدخول مباشرة </h4>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="/main.js">
+</script>
+
+</html>

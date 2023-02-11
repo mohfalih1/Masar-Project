@@ -1,0 +1,67 @@
+/*stat global rule */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,700;1,300;1,400;1,800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    margin: 0;
+}
+
+
+/*end global rule */
+
+
+/* start variables */
+
+:root {
+    --main-color: #171717;
+}
+
+
+/* end variables */
+
+
+/* start header  */
+
+header {
+    width: 100%;
+    background-color: var(--main-color);
+    margin-top: 0;
+    padding-top: 0;
+}
+
+header .continer {
+    width: calc(100%-40px);
+    margin: 5px 20px 5px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* end header  */

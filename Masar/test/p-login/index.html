@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bfc9217422.js" crossorigin="anonymous"></script>
+    <title>التسجيل في مسار</title>
+</head>
+
+<body>
+    <!--start circle -->
+    <div class="circle"></div>
+    <div class="circle-2"></div>
+    <!--end circle -->
+    <!-- start header -->
+    <header>
+        <div class="continer">
+            <div class="logo"><i class="fa-solid fa-users-line"></i></i>
+            </div>
+            <h4 class="register">if yo do not have Account
+                <a href="#">Register </a>here </h4>
+        </div>
+    </header>
+    <!-- end header -->
+    <div class="login">
+        <div class="continer">
+            <h1 class="tit">Workflow system for students</h1>
+
+            <form method="post" class="content" id="login_form">
+
+                <label for="">Username:<input placeholder="enter your username" type="text" name="" id="username"></label>
+                <label for="">password:<input placeholder="enter your password" type="password" name="" id="password"></label>
+                <label for=""><input class="check" type="checkbox">Rememper me<input class="submit" type="submit" value="submit" onclick="sendHttpRequest({
+                    formId: myId,
+                    path: loginApi,
+                    body: myBody,
+                    requestType: 'POST',
+                })"></label>
+            </form>
+
+        </div>
+
+    </div>
+</body>
+<script src="main.js">
+</script>
+
+</html>
